@@ -10,7 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background-color: #7d5a44;
+    /* background: linear-gradient(45deg, #0a0a0a, #3a4452); */
 }
 .calculator > div{
     display: flex;
@@ -19,7 +20,9 @@ body{
 }
 .calculator{
    border: 1px solid #717377;
-   background: transparent;
+   /* background: transparent; */
+   /* background: linear-gradient(45deg, #0a0a0a, #3a4452); */
+   background-color: #4a342a;
    padding: 15px;
    border-radius: 16px;
    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
@@ -32,10 +35,10 @@ input{
     width: 100%;
     padding: 24px;
     margin: 10px 0;
-    background: transparent;
+    background-color:#d7c9b8 ;
     font-size: 40px;
     text-align: right;
-    color: #fafafafa;
+    color: #0a1931;
 }
 
 button{
@@ -47,13 +50,15 @@ button{
     font-size: 20px;
     background: transparent;
     color: #fafafafa;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+
+    box-shadow: -8px -8px 18px rgba(255,255,255,0.1);
 }
 .equalbtn{
     background-color: #fb7c14;
 }
 .opretor{
-    color: #6dee0a;
+    background-color: #7d5a44;
+    /* color: #4a342a ; */
 }
 @media (max-width: 480px){
 
